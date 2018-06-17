@@ -12,3 +12,11 @@ file](https://www.dyalog.com/uploads/files/MasteringDyalogAPL_CompanionFiles.zip
 Errata for the book can be found [on Dyalog's web
 pages](https://www.dyalog.com/mastering-dyalog-apl-errata.htm).
 
+## Environment Preparation
+
+Set the `WSPATH` environment variable to point to the directory in which Dyalog
+should look to find and save workspaces. For instance (on a Mac),
+
+    export WSPATH=/Users/.../mastering_dyalog_apl/workspaces
+
+
