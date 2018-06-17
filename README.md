@@ -19,4 +19,18 @@ should look to find and save workspaces. For instance (on a Mac),
 
     export WSPATH=/Users/.../mastering_dyalog_apl/workspaces
 
+This can be set in a custom file `~/.dyalog/dyalog.config`. See the example
+setting in that file (it will be created upon first startup of Dyalog).
+
+Some additional instructions for installing and configuring Dyalog can be found
+in [this PDF
+file](http://docs.dyalog.com/14.1/Dyalog%20APL%20for%20Mac%20OS%20Installation%20and%20Configuration%20Guide.pdf),
+which is targeted towards Dyalog 14.1, but still appears to be largely correct
+for Dyalog 16.0, which is the version of Dyalog I used.
+
+## Workspaces
+
+All workspaces used during working my way through the book are placed in the
+`workspaces` directory in this repository. The workspace `journey.dws` is
+derived from the workspace `DyalogTutor_EN.dws`.
 
