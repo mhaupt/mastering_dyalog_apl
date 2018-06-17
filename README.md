@@ -9,4 +9,6 @@ their original form but only with the changes I made, are also available as a
 free [ZIP
 file](https://www.dyalog.com/uploads/files/MasteringDyalogAPL_CompanionFiles.zip).
 
+Errata for the book can be found [on Dyalog's web
+pages](https://www.dyalog.com/mastering-dyalog-apl-errata.htm).
 
