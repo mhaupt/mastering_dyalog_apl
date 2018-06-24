@@ -28,6 +28,16 @@ file](http://docs.dyalog.com/14.1/Dyalog%20APL%20for%20Mac%20OS%20Installation%2
 which is targeted towards Dyalog 14.1, but still appears to be largely correct
 for Dyalog 16.0, which is the version of Dyalog I used.
 
+## Fonts and Keyboard Layouts
+
+Unicode fonts for APL can be [downloaded from
+Dyalog](http://www.dyalog.com/apl-font-keyboard.htm).
+
+The same page also provides keyboard layouts. [This example for Mac (UK
+layout)](https://www.dyalog.com/uploads/files/download.php?file=DyalogAltUK.zip)
+can be installed by copying the contents of the ZIP file to `/Library/Keyboard
+Layouts` and activating the new layout via system control.
+
 ## Workspaces
 
 All workspaces used during working my way through the book are placed in the
