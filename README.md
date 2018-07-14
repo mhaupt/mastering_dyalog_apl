@@ -44,3 +44,9 @@ All workspaces used during working my way through the book are placed in the
 `workspaces` directory in this repository. The workspace `journey.dws` is
 derived from the workspace `DyalogTutor_EN.dws`.
 
+## Licence
+
+The companion files provided by Dyalog are available under the terms and
+conditions of the [MIT Licence](https://opensource.org/licenses/MIT), and so are
+the files provided here.
+
