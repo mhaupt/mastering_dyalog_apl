@@ -19,7 +19,7 @@
 
 ∇ FramedText ← Frame3 Text;nr;nc
     FramedText ← ((1 1,⍴Text)[(⍴⍴Text) + 1 2]) ⍴ Text
-    FramedText ← ⊃ (2 ⍴ (↑,FramedText) FramedText)[2 ⌊ ⍴FramedText[2]]
+    FramedText ← ⊃ (2 ⍴ (↑,FramedText) FramedText)[2 ⌊ (⍴FramedText)[2]]
     FramedText ← ⊃ (2 ⍴ (((⍴FramedText),1)⍴FramedText) FramedText)[⍴⍴FramedText]
     FramedText ← (⎕UCS 9472),[1]FramedText,[1](⎕UCS 9472)
     FramedText ← (⎕UCS 9474),[2]FramedText,[2](⎕UCS 9474)
