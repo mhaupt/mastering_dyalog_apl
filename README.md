@@ -22,6 +22,12 @@ should look to find and save workspaces. For instance (on a Mac),
 This can be set in a custom file `~/.dyalog/dyalog.config`. See the example
 setting in that file (it will be created upon first startup of Dyalog).
 
+In chapter D.6, the variable `MyPath` is used to point to the directory where
+the companion files (e.g., text files and spreadsheets) can be found. This
+directory can also be set as, e.g., `MY_PATH` in `dyalog.config`, and then
+pulled in to the workspace using `MyPath ← 2 ⎕NQ '.' 'GetEnvironment'
+'MY_PATH'`.
+
 Some additional instructions for installing and configuring Dyalog can be found
 in [this PDF
 file](http://docs.dyalog.com/14.1/Dyalog%20APL%20for%20Mac%20OS%20Installation%20and%20Configuration%20Guide.pdf),
