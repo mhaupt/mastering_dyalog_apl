@@ -50,6 +50,13 @@ All workspaces used during working my way through the book are placed in the
 `workspaces` directory in this repository. The workspace `journey.dws` is
 derived from the workspace `DyalogTutor_EN.dws`.
 
+## File I/O
+
+In Chapter D6.6, Legrand discusses file I/O, and suggests to load contents from
+a workspace named `files.dws`, which appears not to be part of the Dyalog
+distribution on macOS. The file `workspaces/fileio.dyalog` contains some
+function definitions that substitute the functions mentioned in the book.
+
 ## Licence
 
 The companion files provided by Dyalog are available under the terms and
