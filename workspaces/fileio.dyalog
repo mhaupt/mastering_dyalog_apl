@@ -13,9 +13,18 @@
 
 ⍝ Write the text in t to the file f. The file is overwritten if it exists.
 ⍝ Return the number of bytes written.
-∇ r ← t PutText f
-    ⍝ Not working. Need to transform a M N matrix into a N vector. Careful about
-    ⍝ N vectors, don't transform those.
-    r ← (⊂t)⎕nput f 1
+∇ r ← t PutText f;v
+    ⍝ We need to make sure the left-hand argument passed to ⎕nput is a vector of
+    ⍝ character vectors. We'll assume the rank of the argument is at most 2 (not
+    ⍝ tested for other ranks).
+    :If 1=⍴⍴t
+        ⍝ We have a vector of text vectors, or a plain text vector.
+        v ← t
+    :Else
+        ⍝ Break the matrix into a vector with as many elements as the matrix has
+        ⍝ rows.
+        v ← ⊂[2]t
+    :EndIf
+    r ← (⊂v)⎕nput f 1
 ∇
 
