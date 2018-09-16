@@ -7,7 +7,7 @@
 ⍝ Let's write a dfn with no loops.
 
 Syracuse ← {
-    N ← ,⍵[⍴,⍵]   ⍝ The last element of ⍵, or ⍵ itself, is N.
+    N ← (,⍵)[⍴,⍵] ⍝ The last element of ⍵, or ⍵ itself, is N.
     N=1:   ⍵      ⍝ We're done.
     0=2|N: ⍵,∇N÷2 ⍝ Even case.
     ⍵,∇1+3×N      ⍝ Uneven case.
